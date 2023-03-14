@@ -7,16 +7,16 @@
    равнобедренным или равносторонним.
 """
 
-a = int(input('Введите сторону а: '))
-b = int(input('Введите сторону b: '))
-c = int(input('Введите сторону c: '))
+a = int(input('Enter side а: '))
+b = int(input('Enter side b: '))
+c = int(input('Enter side c: '))
 
 if a + b > c and b + c > a and a + c > b:
-    print("Треугольник существует.")
+    print("The triangle exists.")
     if a == b == c:
-        print("Тругольник равносторонний.")
+        print("The triangle is equilateral.")
     elif a == b or b == c or a == c:
-        print("Треугольник равнобедренный.")
+        print("The triangle is isosceles.")
 else:
-    print("Такого треугольника не существует!")
+    print("Sorry, there is no such triangle!")
 

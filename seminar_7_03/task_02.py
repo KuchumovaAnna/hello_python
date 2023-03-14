@@ -4,14 +4,14 @@
  Сделайте ограничение на ввод отрицательных чисел и чисел больше 100 тысяч.
 """
 
-num = int(input("Введите число для проверки от 0 до 100000: "))
+num = int(input("Enter a number to check from 0 to 100000: "))
 while num < 0 or num > 100_000:
-    num = int(input("Введите коректное число от 0 до 100000: "))
+    num = int(input("Enter the correct number from 0 to 100000: "))
 count = 0
 for i in range(2, num // 2 + 1):
     if (num % i == 0):
         count = count + 1
 if (count <= 0):
-    print("Число простое.")
+    print("The number is simple.")
 else:
-    print("Число является составным.")
+    print("The number is composite.")
