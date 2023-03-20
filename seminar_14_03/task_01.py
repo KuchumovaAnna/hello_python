@@ -3,7 +3,7 @@
    В результирующем списке не должно быть дубликатов.
 """
 
-init_lst = [5, 7, 8, 6, 9, 10, 2, 5, 5, 4, 6, 7, 8]
+init_lst = [1, 6, 9, 7, 2, 5, 4, 6, 7, 8]
 dub_lst = []
 res = []
 for item in init_lst:
@@ -11,5 +11,5 @@ for item in init_lst:
         dub_lst.append(item)
     else:
         res.append(item)
-print(f"Список дублирующихся элементов: {dub_lst}")
-print(f"Результирующий список: {res}")
+print(f"Повторяющиеся элементы: {dub_lst}")
+print(f"В результате получится список: {res}")

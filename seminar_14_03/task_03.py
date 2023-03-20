@@ -4,8 +4,9 @@
 допустимый вариант.
 *Верните все возможные варианты комплектации рюкзака.
 """
+from typing import List, Dict
 
-def backpack(shop: dict[str:int], size: int) -> list[list[str]]:
+def backpack(shop: Dict[str:int], size: int) -> List[List[str]]:
     pcs, weight = zip(*sorted(shop.items(), key=lambda x: x[1], reverse=True))
     result, temp, temp_w = [], [], 0
     for index, w in enumerate(weight, 0):
@@ -19,7 +20,6 @@ def backpack(shop: dict[str:int], size: int) -> list[list[str]]:
         temp, temp_w = [], 0
     return result
 
-
-shop = {"носки": 1, "штаны": 3, "футболка": 2, "футболка_2": 2, "куртка": 5, "кепка": 1}
+shop = {"socks": 1, "pants": 3, "t-shirt": 2, "jacket": 5, "cap": 1}
 backpack_size = 7
 [print(i) for i in backpack(shop, backpack_size)]
