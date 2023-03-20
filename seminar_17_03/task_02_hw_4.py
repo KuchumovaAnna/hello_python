@@ -12,5 +12,4 @@ def reverse_key(**kwargs):
         temp[value] = key
     return temp
 
-
 print(reverse_key(asd=[150, 500, -200], abc=[150, 500, -200], cab=[850, 500, -200]))
