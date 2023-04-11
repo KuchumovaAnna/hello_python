@@ -1,1 +1,40 @@
-{}
+{
+  "C:\\Users\\\u0410\u043d\u043d\u0430\\Desktop\\Python\\hello_python\\seminar_07_04": {
+    "hw_01.py": {
+      "size": 2823,
+      "type": "file"
+    },
+    "hw_02.py": {
+      "size": 3589,
+      "type": "file"
+    },
+    "task_01.py": {
+      "size": 942,
+      "type": "file"
+    },
+    "task_02.py": {
+      "size": 1171,
+      "type": "file"
+    },
+    "task_03.py": {
+      "size": 1151,
+      "type": "file"
+    },
+    "task_04.py": {
+      "size": 1442,
+      "type": "file"
+    },
+    "task_05.py": {
+      "size": 2198,
+      "type": "file"
+    },
+    "task_06.py": {
+      "size": 2246,
+      "type": "file"
+    },
+    "__init__.py": {
+      "size": 27,
+      "type": "file"
+    }
+  }
+}
