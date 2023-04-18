@@ -96,7 +96,7 @@ middle_estimate={self.lessons["middle_estimate"]}\n'''
 
 
 if __name__ == '__main__':
-    s1 = Student("Nikolay", "Alekseevich", "Eremeev", Path('lessons.csv'))
+    s1 = Student("Anna", "Nicolaevna", "Kuchumova", Path('lessons.csv'))
     print(s1)
     s1.new_estimate("русский язык", 4)
     s1.new_estimate("математика", 5)
